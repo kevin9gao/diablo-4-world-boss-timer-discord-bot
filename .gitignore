@@ -1,0 +1,11 @@
+# Python related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment and configuration files
+.env
+
+# Dependency directories
+venv/
