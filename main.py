@@ -30,7 +30,7 @@ class WorldBossTimerClient(discord.Client):
       print('received message')
       await message.channel.send("I'm Diablo 4 World Boss Bot beep boop")
     elif msg.startswith('$pet'):
-      PETS = ['Dindin', 'Milo', 'Ahri', 'Benji']
+      PETS = ['Dindin', 'Milo', 'Ahri', 'Benji', 'Eddie']
       SOUNDS = ['BORK', 'MEOW', 'ARF', 'HISS', "I'M FUCKIN\' JUICED", "I'm gonna start selling my items cuz I'm poor", "I'M AN OG", 'AVENGERS ASSEMBLE', 'KAGE BUNSHIN NO JUTSU']
       name = PETS[random.randint(0, len(PETS) - 1)]
       sound = SOUNDS[random.randint(0, len(SOUNDS) - 1)]
